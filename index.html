@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History Guess Word with Hangman</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts/word-list.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="path-to-your-image" alt="game-over-gif" />
+        <h4>Game Berakhir!</h4>
+        <p>Jawaban yang benar: <b>pelangi</b></p>
+        <button class="play-again">Main Lagi</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hangman-box">
+        <img src="path-to-your-image" draggable="false" alt="hangman-img" />
+        <h1>Tebak Kata Sejarah</h1>
+      </div>
+      <div class="game-box">
+        <ul class="word-display">
+          <!-- Isi dengan huruf-huruf tebakan -->
+        </ul>
+        <h4 class="hint-text">Petunjuk: <b></b></h4>
+        <h4 class="guesses-text">Tebakan salah: <b></b></h4>
+        <div class="keyboard"></div>
+      </div>
+    </div>
+  </body>
+</html>
